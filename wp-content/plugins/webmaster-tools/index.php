@@ -1,0 +1,1 @@
+<br /><br /><center>Install <a href="http://www.lionscripts.com/product/webmaster-tools/" target="_blank">Webmaster Tools Plugin</a> to put Various Meta Verification Tags like Google, Bing, Yandex, Alexa, Pinterest etc. and Add Analytics instantly on your WordPress Websites.</center>
