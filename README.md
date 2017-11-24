@@ -39,8 +39,8 @@ To discuss with other developers, you can communicate with telegram at https://t
 
 ## Modification
 * If you want to modify a web, you can choose between the two
-	1. Use a wordpress
-	2. Use a PHP
+	* Use a wordpress
+	* Use a PHP
 
 ## Caution
 * Don't touch account settings.
