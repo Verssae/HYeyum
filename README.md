@@ -5,6 +5,8 @@ It is webservice serviced by Navy-02 to provide Cardnews
 
 Cardnews is news that express news by several pictures and shared to SNS
 
+Address is http://bxmpe.net/wordpress/
+
 To discuss with other developers, you can communicate with telegram at https://t.me/hyeyum
 
 
