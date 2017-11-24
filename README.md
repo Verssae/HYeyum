@@ -37,6 +37,10 @@ To discuss with other developers, you can communicate with telegram at https://t
 * Copy and paste all files in cloned folder to your web root folder.
 * You can access to management page with admin account with password admin(ID : admin / PW : admin)
 
+## Modification
+* If you want to modify a web, you can choose between the two
+	1. Use a wordpress
+	2. Use a PHP
 
 ## Caution
 * Don't touch account settings.
