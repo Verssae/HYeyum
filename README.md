@@ -39,6 +39,7 @@ To discuss with other developers, you can communicate with telegram at https://t
 * Copy and paste all files in cloned folder to your web root folder.
 * You can access to management page with admin account with password admin.(ID : admin / PW : admin)
 
+
 ## Manual for Developer
 * If you want to modify a web, you can choose between the two choices.
 	### 1. Use a wordpress.
@@ -60,5 +61,4 @@ To discuss with other developers, you can communicate with telegram at https://t
 ## Credits
 
 [Yejun Kim](https://github.com/kyj0701), [Jeongin Lee](https://github.com/jil8885), [Hansae Ju](https://github.com/Verssae), [Minsung Kang](https://github.com/TigerP-MS), [Seongwon Jeon](https://github.com/saecom0601) at Hanyang University. (Team #navy-02)
-
 
