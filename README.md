@@ -46,7 +46,8 @@ To discuss with other developers, you can communicate with telegram at https://t
 		(1) Modify your site wordpress thru account.
 			ID : jil8885
 			password : a981212
-	<img src = "https://github.com/Verssae/HYeyum/blob/master/image/wordpress-1.png">
+	<img src = "https://github.com/Verssae/HYeyum/blob/master/image/wordpress-2.png">
+	<img src = "https://github.com/Verssae/HYeyum/blob/master/image/wordpress-3.png">
 		
 	### 2. Use a PHP.
 		(1) Fork repository at https://github.com/Verssae/HYeyum.
