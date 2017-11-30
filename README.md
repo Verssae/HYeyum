@@ -48,15 +48,15 @@ To discuss with other developers, you can communicate with telegram at https://t
 > (1) Fork repository at https://github.com/Verssae/HYeyum.
 
 > (2) Make your branch.
-git branch your_branch_name - Make your branch.
-git checkout your_branch_name - Move to your_branch_name.
+> git branch your_branch_name - Make your branch.
+> git checkout your_branch_name - Move to your_branch_name.
 		
 > (3) Modify files on your branch.
 	
 > (4) Commit your modification and Pull request.
-Compare your branch to master branch.	    
-If you don't want to make a your branch, you can modify files on master branch.
-Then you don't need to proceed step 4.
+> Compare your branch to master branch.	    
+> If you don't want to make a your branch, you can modify files on master branch.
+> Then you don't need to proceed step 4.
 	    
 > (5) After that, managers of repository will examine your modification.
 	
