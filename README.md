@@ -35,14 +35,25 @@ To discuss with other developers, you can communicate with telegram at https://t
 
 ## Installation
 * You install apache server, mysql, php.
-* Copy "git clone https://github.com/Verssae/HYeyum" and paste on terminal
+* Copy "git clone https://github.com/Verssae/HYeyum" and paste on terminal.
 * Copy and paste all files in cloned folder to your web root folder.
-* You can access to management page with admin account with password admin(ID : admin / PW : admin)
+* You can access to management page with admin account with password admin.(ID : admin / PW : admin)
 
-## Modification
-* If you want to modify a web, you can choose between the two
-	* Use a wordpress
-	* Use a PHP
+
+## Manual for Developer
+* If you want to modify a web, you can choose between the two choices.
+	### 1. Use a wordpress.
+	### 2. Use a PHP.
+		(1) Fork repository at https://github.com/Verssae/HYeyum.
+
+		(2) Make a your branch.
+
+		(3) Modify files in your branch.
+
+		(4) Commit your modification and Pull request.
+		    Compare your branch to master branch.
+
+		(5) After that, managers of repository will examine your modification
 
 ## Caution
 * Don't touch account settings.
@@ -50,5 +61,4 @@ To discuss with other developers, you can communicate with telegram at https://t
 ## Credits
 
 [Yejun Kim](https://github.com/kyj0701), [Jeongin Lee](https://github.com/jil8885), [Hansae Ju](https://github.com/Verssae), [Minsung Kang](https://github.com/TigerP-MS), [Seongwon Jeon](https://github.com/saecom0601) at Hanyang University. (Team #navy-02)
-
 
