@@ -54,10 +54,13 @@ To discuss with other developers, you can communicate with telegram at https://t
 
 		(2) Make a your branch.
 
-		(3) Modify files in your branch.
+		(3) Modify files on your branch.
 
 		(4) Commit your modification and Pull request.
 		    Compare your branch to master branch.
+		    
+		    If you don't want to make a your branch, you can modify files on master branch.
+		    Then you don't need to proceed step 4.
 
 		(5) After that, managers of repository will examine your modification
 
