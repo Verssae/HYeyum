@@ -43,6 +43,8 @@ To discuss with other developers, you can communicate with telegram at https://t
 ## Manual for Developer
 * If you want to modify a web, you can choose between the two choices.
 	### 1. Use a wordpress.
+		(1) Request manager's ID to use community.
+		
 	### 2. Use a PHP.
 		(1) Fork repository at https://github.com/Verssae/HYeyum.
 
