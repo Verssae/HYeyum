@@ -53,8 +53,8 @@ To discuss with other developers, you can communicate with telegram at https://t
 	(1)Fork repository at https://github.com/Verssae/HYeyum.
 	<img src = "https://github.com/Verssae/HYeyum/blob/master/image/Fork.png">
 	(2)Make your branch.
-	    	git branch your_branch_name - Make your branch.
-		git checkout your_branch_name - Move to your_branch_name.
+	    	* git branch your_branch_name - Make your branch.
+		* git checkout your_branch_name - Move to your_branch_name.
 		
 	(3) Modify files on your branch.
 	
