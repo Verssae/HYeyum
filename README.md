@@ -42,14 +42,9 @@ To discuss with other developers, you can communicate with telegram at https://t
 
 ## Developer Manual
 * If you want to modify a web, you can choose between the two choices.
-### 1. Use a wordpress.
-	(1) Modify your site wordpress thru account.
-		ID : jil8885
-		password : a981212
-<img src = "https://github.com/Verssae/HYeyum/blob/master/image/wordpress-2.png">
-<img src = "https://github.com/Verssae/HYeyum/blob/master/image/wordpress-3.png">
-		
-### 2. Use a PHP.
+### 1. Use a Wordpress.
+	
+### 2. Use a Git and GitHub.
 	(1) Fork repository at https://github.com/Verssae/HYeyum.
 
 	(2) Make your branch.
