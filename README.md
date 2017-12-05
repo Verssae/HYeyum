@@ -14,7 +14,7 @@ To discuss with other developers, you can communicate with telegram at https://t
 ## Features
 
 * Add Post with serveral photos.
-* Modify Photos before posting using tyle.io.
+* Modify Photos before posting using Addtext.com.
 * Share Post and thumbnails to SNS.
 
 
