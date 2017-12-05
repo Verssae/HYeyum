@@ -42,6 +42,11 @@ To discuss with other developers, you can communicate with telegram at https://t
 
 
 
+## User Manual
+* If you want to use a web, you should go to this repository's wiki.
+
+
+
 ## Developer Manual
 
 * If you want to modify a web, you can choose between the two choices.
