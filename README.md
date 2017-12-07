@@ -8,7 +8,7 @@ Cardnews is news that express news by several pictures and shared to SNS.
 Address is http://bxmpe.net/wordpress/.
 
 To discuss with other developers, you can communicate with telegram at https://t.me/joinchat/FKHHGEtGTmrqvYTKRDL7Ag
-To see our information about us, you can get information from google+
+To see our information about us, you can get information from google+ at https://plus.google.com/communities/108376162236962207600?hl=ko
 
 
 
