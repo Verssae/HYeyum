@@ -1,0 +1,51 @@
+.hana-like-post-like-wrapper {
+	margin: 40px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.hana-like-post-like-wrapper a:hover {
+	text-decoration:none; 
+}
+.hana-like-action {
+	display: inline-block;
+	width: 80px; 
+	padding: 10px 5px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #f3f3f3;
+}
+
+.hana-like-post-like-wrapper .like-count,
+.hana-like-post-like-wrapper .like_text,
+.hana-like-post-like-wrapper .dislike-count,
+.hana-like-post-like-wrapper .dislike_text {
+	color: #666 !important;
+	font-size: 12px;
+}
+.hana-like-post-like-wrapper .hana-like-like-link, .hana-like-post-like-wrapper .hana-like-liked-link {
+	
+}
+
+.hana-like-post-like-wrapper i.fa-thumbs-o-up {
+	color: darkblue;
+}
+
+.hana-like-post-like-wrapper i.fa-thumbs-o-down {
+	color: red;
+}
+
+.hana-like-post-like-wrapper .hana-like-dislike-link, .hana-like-post-like-wrapper .hana-like-disliked-link  {
+	
+}
+
+.hana-like-post-like-wrapper .like-count {
+	margin-top: 10px;
+}
+
+.hana-like-post-like-wrapper .dislike-count {
+	margin-top: 10px;
+}

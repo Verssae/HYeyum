@@ -3,9 +3,9 @@ Contributors: kitae-park
 Donate link: http://www.mangboard.com/donate/
 Tags: board,mangboard,bbs,bulletin,gallery,image,calendar,seo,plugin,shortcode,social,korea,korean,kingkong,kboard,망보드,워드프레스게시판,한국형게시판,게시판
 Requires at least: 4.0.0
-Tested up to: 4.8.3
+Tested up to: 4.9
 Requires PHP: 5.4
-Stable tag: 1.5.0
+Stable tag: 1.5.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -102,6 +102,12 @@ The plugin is available in English, Japanese(日本語), Chinese(中国語) and 
 안정화 작업 및 업데이트 버전 분리
 
 == Changelog ==
+
+= 1.6.3 =
+* 일부환경에서 게시판 테이블 생성되지 않는 버그 수정
+
+= 1.6.2 =
+* Cafe24 - PHP 안티웹셸 보안 환경에서 업데이트 이후에 로딩 길어지는 버그 수정
 
 = 1.6.1 =
 * 일부환경에서 utf8mb4 호환성 문제 때문에 디비 테이블 생성되지 않는 버그 수정

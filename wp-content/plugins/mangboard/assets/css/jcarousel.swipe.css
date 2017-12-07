@@ -5,10 +5,7 @@
 .mb-board .jcarousel-wrapper {
     position: relative;    
 	overflow: hidden;
-	border: 1px solid #FFF;
-	-webkit-box-shadow: 0 0 1px #aaa;
-    -moz-box-shadow: 0 0 1px #aaa;
-    box-shadow: 0 0 1px #aaa;
+	border: 1px solid #F5F5F5;
 }
 
 /** Carousel **/

@@ -106,17 +106,19 @@ if(!function_exists('mbw_set_api_params')){
 					if(!empty($allow_fields)) $allow_fields		= ",".$allow_fields.",";
 				}
 			}else{
-				if(!$is_admin_table){
-					if(mbw_get_param("mode")=="comment"){
-						if(!empty($mb_fields["comment_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["comment_not_allow"]);
+				if(!mbw_is_admin()){
+					if(!$is_admin_table){
+						if(mbw_get_param("mode")=="comment"){
+							if(!empty($mb_fields["comment_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["comment_not_allow"]);
+						}else{
+							if(!empty($mb_fields["board_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["board_not_allow"]);
+						}
 					}else{
-						if(!empty($mb_fields["board_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["board_not_allow"]);
-					}
-				}else{
-					if($mb_board_table_name==$mb_admin_tables["users"]){
-						if(!empty($mb_fields["users_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["users_not_allow"]);
-					}else{						
-						if(!empty($mb_fields[mbw_get_board_name()."_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields[mbw_get_board_name()."_not_allow"]);
+						if($mb_board_table_name==$mb_admin_tables["users"]){
+							if(!empty($mb_fields["users_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields["users_not_allow"]);
+						}else{						
+							if(!empty($mb_fields[mbw_get_board_name()."_not_allow"])) $check_fields			= array_diff($api_fields, $mb_fields[mbw_get_board_name()."_not_allow"]);
+						}
 					}
 				}
 			}

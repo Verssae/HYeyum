@@ -1,0 +1,117 @@
+.list-webgine>:first-child {
+	border-top: 1px solid #f2f2f2;
+}
+
+.hanaboard-list-webgine .list-items  .nopadding-left {
+	padding-left: 0;
+}
+
+.hanaboard-list-webgine .list-items  .nopadding-right {
+	padding-right: 0;
+}
+
+.hanaboard-list-webgine .list-items  {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.hanaboard-list-webgine .list-items  a {
+	text-decoration: none;
+}
+
+.hanaboard-list-webgine .list-items  .article-title {
+	font-size: 11pt;
+	line-height: 1.5em;
+	height: 1.5em;
+}
+
+.hanaboard-list-webgine .list-items  .article-title img {
+	vertical-align: middle;
+	margin-bottom: 0.1em;
+}
+
+.hanaboard-list-webgine .list-items  .article-author {
+	font-weight: bold;
+}
+
+.hanaboard-list-webgine .list-items  .article-author .the_author_guest {
+	font-weight: normal;
+}
+
+.hanaboard-list-webgine .list-items  .post-meta {
+	display: block;
+	margin: 3px 0;
+}
+
+.hanaboard-list-webgine .list-items  small, .hanaboard-list-webgine .list-items  .article-date
+	{
+	font-size: 9pt;
+}
+
+.hanaboard-list-webgine .list-items  .post-footer {
+	margin-top: 5px;
+}
+
+.hanaboard-list-webgine .list-items  .post-info .entry-summary {
+	text-align: justify;
+}
+
+.hanaboard-list-webgine .list-items  .post-thumbnail {
+	overflow: hidden;
+}
+
+.hanaboard-list-webgine .list-items  .post-thumbnail a {
+	overflow: hidden;
+	display: block;
+}
+
+.hanaboard-list-webgine .list-items  .post-thumbnail a img {
+	transition: all .2s ease-in-out;
+}
+
+.hanaboard-list-webgine .list-items  .post-thumbnail a img:hover {
+	transform: scale(1.1);
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.hanaboard-list-webgine .list-items  .hanaboard-article-meta-bottom span {
+	font-size: 9pt;
+}
+
+.hanaboard-list-webgine .loop-notice  {
+	width: 100%;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	background-color: #f5f5f5;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 7px;
+	height: auto;
+	min-height: auto;
+	display: block;
+}
+.hanaboard-list-webgine .loop-notice:after {
+	clear: both;
+}
+.hanaboard-list-webgine .loop-notice .title_link {
+	display: block;
+	line-height: 1.5em;
+	height: 1.5em;
+}
+.hanaboard-list-webgine .loop-notice .title_link .title_add_info {
+	vertical-align: middle;
+	margin-bottom: 0.15em;
+}
+.hanaboard-list-webgine .loop-notice .board-article-meta {
+	font-size: 9pt;
+}
+.hanaboard-list-webgine .loop-notice:after {
+	clear: both;
+}
+
+.hanaboard-list-search select#board_category_selectbox,.hanaboard-list-search  select#sub_category_selectbox {
+	display: inline !important;
+	width: initial !important;
+}

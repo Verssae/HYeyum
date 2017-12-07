@@ -1,0 +1,16 @@
+.hana-like-social-share-wrapper {
+	text-align:center;
+}
+.hana-like-social-share-wrapper .hana-like-social-share-title {
+	text-align:center;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.hana-like-social-share-wrapper .hana-like-social-share-button {
+	display:inline-block;
+	margin:3px; 
+	overflow: hidden;
+}
+.hana-like-social-share-wrapper .hana-like-social-share-button.rounded {
+	border-radius: 50%;
+}

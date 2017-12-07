@@ -18,7 +18,7 @@ $mb_options				= array("locale"=>$mb_locale,		//ko_KR, en_US   (DB에서 설정 
 										"cookie_expire"=>(60*60*24),
 										"date_format"=>"Y-m-d",	// 날짜 년-월-일 포맷 (수정 금지)
 										"time_format"=>"H:i:s",		// 시간 시간:분:초 포맷 (수정 금지)
-										"mb_version"=>"1.6.1",	
+										"mb_version"=>"1.6.3",	
 										"db_version"=>"1.0.3",
 										"encoding"=>"UTF-8",
 

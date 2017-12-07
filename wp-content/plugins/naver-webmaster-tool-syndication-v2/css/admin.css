@@ -1,0 +1,6 @@
+.group { display :none }
+.token { width:50% }
+.form-table > thead td { border-bottom: 1px solid #ccc}
+.fixed .column-date {width:150px}
+.fixed .column-author {width:100px}
+h3 span { font-size: 14px }

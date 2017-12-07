@@ -1,0 +1,18 @@
+.hana-like-wrapper {
+    margin: 30px auto 10px;
+    width: 110px;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.hana-like-wrapper .hana_like,
+.hana-like-wrapper .hana_liked
+ {
+	text-align:center; 
+
+	font-weight:bold;
+	text-decoration:none;
+}
+.hana-like-wrapper .like-count {
+	margin-top: 10px;
+}

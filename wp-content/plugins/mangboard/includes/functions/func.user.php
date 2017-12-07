@@ -353,7 +353,8 @@ if(!function_exists('mbw_join_user_phone')){
 if(!function_exists('mbw_get_level_item')){
 	function mbw_get_level_item($level){
 		$level_icon		= 'images/icon_level'.$level.'.gif';
-		if(is_file(MBW_SKIN_PATH.$level_icon)) return ' <img class="user-i-level mb-level-'.$level.'" src="'.MBW_SKIN_URL.$level_icon.'" />';
+		if(defined('MBW_SKIN_PATH') && is_file(MBW_SKIN_PATH.$level_icon)) return ' <img class="user-i-level mb-level-'.$level.'" src="'.MBW_SKIN_URL.$level_icon.'" />';
+		else if(is_file(MBW_PLUGIN_PATH.'skins/bbs_basic/'.$level_icon)) return ' <img class="user-i-level mb-level-'.$level.'" src="'.MBW_PLUGIN_URL.'skins/bbs_basic/'.$level_icon.'" />';
 		else return "[".$level."]";
 	}
 }

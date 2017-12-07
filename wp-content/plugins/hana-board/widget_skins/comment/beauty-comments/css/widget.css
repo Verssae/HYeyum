@@ -1,0 +1,122 @@
+.noThumb {
+	width: 0px;
+	height: 45px;
+	float: left;
+	margin: 0;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.nopadding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.widget-beauty-comments .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.widget-beauty-comments {
+	padding: 0; margin : 0;
+	width: 100%;
+	margin: 0;
+}
+
+.widget-beauty-comments.shortcode {
+	padding: 0 15px;
+}
+
+.widget-beauty-comments .hana-widget-header {
+	display: none;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-header {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 11px 20px 9px 0;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.267em;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.widget-beauty-comments .hana-widget-item {
+	margin-left: 0;
+	list-style: none;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+	padding: 2px 0;
+	height: 46px;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-item {
+	border-top: 1px solid #f2f2f2;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-item:first-of-type {
+	border-top: 0;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-image {
+	width: 46px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 6px;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-image img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-body {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-body .item-title a {
+	display: block;
+	width: 100%;
+	font-size: 10pt;
+	line-height: 20px;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-item .widget-item-body .item-title a
+	{
+	color: #666666 !important;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-item .widget-item-body .item-title a:hover
+	{
+	color: #000000 !important;
+}
+
+.widget-beauty-comments.shortcode .hana-widget-item .widget-item-body .item-meta a
+	{
+	color: #aaaaaa !important;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-body .item-meta a {
+	font-size: 9pt;
+	line-height: 20px;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-body .col-author {
+	font-weight: normal;
+}
+
+.widget-beauty-comments .hana-widget-item .widget-item-body .col-date {
+	color: #aaaaaa;
+}

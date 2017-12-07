@@ -1,0 +1,66 @@
+.noThumb{width:0px; float:left; margin:0;}
+
+.widget-posts-gallery .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.widget-posts-gallery {
+	padding: 0; margin : 0;
+	width: 100%;
+	margin: 0;
+}
+
+.widget-posts-gallery.shortcode {
+	padding: 0 15px;
+}
+
+.widget-posts-gallery.hana-col-1 .hana-widget-item { float: left; width: 100%; }
+.widget-posts-gallery.hana-col-2 .hana-widget-item { float: left; width: 50%;  }
+.widget-posts-gallery.hana-col-3 .hana-widget-item { float: left; width: 33.33%;  }
+.widget-posts-gallery.hana-col-4 .hana-widget-item { float: left; width: 25%;  }
+.widget-posts-gallery.hana-col-6 .hana-widget-item { float: left; width: 16.66%;  }
+.widget-posts-gallery {padding: 10px 10px 0; list-style-type: none;}
+.widget-posts-gallery .hana-widget-item { margin: 0 0 6px; }
+.widget-posts-gallery .hana-widget-item a { display:block; padding : 0 6px; text-decoration: none; box-shadow: none;}
+.widget-posts-gallery .hana-widget-item a .widget-thumbnail { display:block; width: 100%; }
+.widget-posts-gallery .hana-widget-item .widget-thumbnail img { width: 100%; height: auto;}
+.widget-posts-gallery .hana-widget-item a .widget-meta { padding: 5px 4px 0 5px; overflow:hidden; }
+.widget-posts-gallery .hana-widget-item a .widget-post-title { padding: 5px 4px 0 5px; display:block; width:100%; white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+.widget-posts-gallery .hana-widget-item .widget-post-title a { font-size:10pt; color: #666666 !important;  }
+.widget-posts-gallery .hana-widget-item .author {display:inline-block; font-size:0.9em; color: #888888;}
+.widget-posts-gallery .hana-widget-item .date {display:inline-block; font-size:0.9em; color: #888888;}
+
+.widget-posts-gallery .hana-widget-item .widget-thumbnail {
+	overflow: hidden;
+}
+.widget-posts-gallery .hana-widget-item .widget-thumbnail a {
+	display: block;
+}
+.widget-posts-gallery .hana-widget-item .widget-thumbnail a img{
+	transition: all .2s ease-in-out; 
+}
+.widget-posts-gallery .hana-widget-item .widget-thumbnail a img:hover{
+	transform: scale(1.1); 
+    background-color:#000;
+    opacity:0.5;	
+}
+.widget-posts-gallery .hana-widget-header {
+	display: none;
+}
+
+.widget-posts-gallery.shortcode .hana-widget-header {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 11px 20px 9px 0;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.267em;
+	border-bottom: 1px solid #f2f2f2;
+}

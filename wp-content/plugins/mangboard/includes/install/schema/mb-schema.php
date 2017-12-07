@@ -6,10 +6,10 @@
  * 
  * Copyright (c) hometory.com All Rights Reserved.
  */
-global $wpdb;
 if(defined('DB_CHARSET') && DB_CHARSET=="utf8"){
 	$db_charset	= "DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
 }else{
+	if(empty($wpdb)) global $wpdb;
 	$db_charset	= $wpdb->get_charset_collate();
 }
 
@@ -124,7 +124,7 @@ $mb_schema["options"]		= "(
   `option_load` varchar(20) NOT NULL DEFAULT 'init',
   `option_category` varchar(20) NOT NULL DEFAULT '',
   `option_title` varchar(255) NOT NULL DEFAULT '',
-  `option_name` varchar(64) NOT NULL DEFAULT '',
+  `option_name` varchar(100) NOT NULL DEFAULT '',
   `option_value` varchar(255) NOT NULL DEFAULT '',
   `option_data` varchar(255) NOT NULL DEFAULT '',
   `option_label` varchar(255) NOT NULL DEFAULT '',
@@ -226,7 +226,7 @@ $mb_schema["board"]		= "(
   `depth` int(10) unsigned NOT NULL DEFAULT '0',
   `user_id` varchar(100) NOT NULL DEFAULT '',
   `user_name` varchar(50) NOT NULL DEFAULT '',
-  `title` varchar(255) NOT NULL DEFAULT '',
+  `title` varchar(200) NOT NULL DEFAULT '',
   `passwd` varchar(80) NOT NULL DEFAULT '',
   `homepage` varchar(255) NOT NULL DEFAULT '',
   `email` varchar(255) NOT NULL DEFAULT '',
@@ -284,7 +284,7 @@ $mb_schema["board"]		= "(
   KEY `modify_date` (`modify_date`),
   KEY `hit` (`hit`),
   KEY `gid` (`gid`,`reply`),
-  KEY `category` (`category1`,`category2`,`category3`),
+  KEY `category` (`category1`,`category2`),
   KEY `calendar_date` (`calendar_date`),
   KEY `is_show` (`is_show`),
   KEY `status` (`status`),
