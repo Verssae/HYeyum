@@ -1,0 +1,131 @@
+.noThumb {
+	width: 0px;
+	height: 45px;
+	float: left;
+	margin: 0;
+}
+
+.widget-comments-default .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.widget-comments-default {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	margin: 0;
+}
+
+.widget-comments-default.shortcode {
+	padding: 0 15px;
+}
+
+.widget-comments-default {
+	padding-left: 0;
+}
+
+.widget-comments-default .hana-widget-item {
+	margin: 0 ;
+	list-style: none;
+}
+
+.widget-comments-default .hana-widget-item a {
+	display: block;
+	padding: 10px 15px 11px 0;
+}
+
+.widget-comments-default.shortcode .hana-widget-item {
+	border-top: 1px solid #f2f2f2;
+}
+
+.widget-comments-default.shortcode .hana-widget-item:first-of-type {
+	border-top: 0;
+}
+
+
+.widget-comments-default.shortcode .hana-widget-item .item-title a{
+	color: #666666 !important;
+}
+
+.widget-comments-default.shortcode .hana-widget-item .item-title a:hover {
+	color: #000000 !important;
+}
+
+
+.widget-comments-default .hana-widget-item .widget-comment-title {
+	font-size: 10pt;
+	color: #666666 !important;
+	display: block;
+	font-size: 10pt;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-moz-binding: url('ellipsis.xml');}
+
+.widget-comments-default .hana-widget-item .author {
+	color: #aaaaaa;
+}
+
+.widget-comments-default .hana-widget-item .date {
+	font-size: 0.9em;
+	color: #aaaaaa;
+}
+
+/* Header */
+.widget-comments-default .hana-widget-header {
+	display: none;
+}
+
+.widget-comments-default.shortcode .hana-widget-header {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 11px 20px 9px 0;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.267em;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+
+
+ul.widget-comments-default {
+	
+}
+
+ul.widget-comments-default li {
+	margin-left: 0;
+	list-style: none;
+}
+
+ul.widget-comments-default li .widget-comment-title {
+	display: block;
+	font-size: 10pt;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-moz-binding: url('ellipsis.xml');
+}
+
+ul.widget-comments-default li .widget-post-title a {
+	
+}
+
+ul.widget-comments-default li .widget-post-title a:hover {
+	
+}
+
+ul.widget-comments-default li .author {
+	color: #aaaaaa;
+}
+
+ul.widget-comments-default li .date {
+	font-size: 0.85em;
+	color: #aaaaaa;
+}

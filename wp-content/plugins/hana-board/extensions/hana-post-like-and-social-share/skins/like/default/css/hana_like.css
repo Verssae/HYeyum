@@ -1,0 +1,48 @@
+.wj-like-wrapper {
+	margin: 40px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.wj_like_action {
+	display: inline-block;
+	width: 80px; 
+	padding: 10px 5px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #f3f3f3;
+}
+
+.wj-like-wrapper .like-count,
+.wj-like-wrapper .like_text,
+.wj-like-wrapper .dislike-count,
+.wj-like-wrapper .dislike_text {
+	color: #666 !important;
+	font-size: 12px;
+}
+.wj-like-wrapper .wj_like, .wj-like-wrapper .wj_liked {
+	
+}
+
+.wj-like-wrapper i.fa-thumbs-o-up {
+	color: darkblue;
+}
+
+.wj-like-wrapper i.fa-thumbs-o-down {
+	color: red;
+}
+
+.wj-like-wrapper .wj_dislike, .wj-like-wrapper .wj_disliked {
+	
+}
+
+.wj-like-wrapper .like-count {
+	margin-top: 10px;
+}
+
+.wj-like-wrapper .dislike-count {
+	margin-top: 10px;
+}

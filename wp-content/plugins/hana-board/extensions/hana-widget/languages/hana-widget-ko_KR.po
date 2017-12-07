@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WJ Post Widget\n"
+"POT-Creation-Date: 2016-12-18 23:21+0900\n"
+"PO-Revision-Date: 2016-12-18 23:22+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/settings-page.php:113
+msgid "Modify"
+msgstr "수정"
+
+#: includes/admin/settings-page.php:114
+msgid "Delete"
+msgstr "삭제"
+
+#: includes/admin/settings-page.php:115
+msgid "Duplicate"
+msgstr "복제"
+
+#: includes/admin/settings-page.php:120
+msgid "Shortcode Generator"
+msgstr "쇼트코드 생성기"
+
+#: includes/admin/settings-page.php:124
+msgid "Data type"
+msgstr "데이터 유형"
+
+#: includes/admin/settings-page.php:128
+msgid "post"
+msgstr "포스트"
+
+#: includes/admin/settings-page.php:129
+msgid "comment"
+msgstr "댓글"
+
+#: includes/admin/settings-page.php:131
+msgid "Select post or comment."
+msgstr "포스트 또는 댓글을 선택해주세요."
+
+#: includes/admin/settings-page.php:136 includes/hana-post-widget.php:122
+msgid "Post Type"
+msgstr "포스트 타입"
+
+#: includes/admin/settings-page.php:157 includes/hana-post-widget.php:140
+msgid "Terms"
+msgstr "Terms"
+
+#: includes/admin/settings-page.php:161
+msgid ""
+"Select terms to show. Put 'all' to show all categories in selected post type."
+msgstr ""
+"보여줄 카테고리명을 입력하세요. 선택한 포스트 타입의 모든 카테고리를 표시하려"
+"면 'all' 또는 공백을 입력하세요."
+
+#: includes/admin/settings-page.php:166
+msgid "Skin"
+msgstr "스킨"
+
+#: includes/admin/settings-page.php:184 includes/hana-comment-widget.php:93
+msgid "Count"
+msgstr "개수"
+
+#: includes/admin/settings-page.php:202
+msgid "Generate"
+msgstr "생성"
+
+#: includes/admin/settings-page.php:208
+msgid "Latest news from HanaWordpress.com"
+msgstr "하나워드프레스닷컴 최근뉴스"
+
+#: includes/admin/settings-page.php:230
+msgid "HanaWordpress"
+msgstr "하나워드프레스"
+
+#: includes/admin/settings.php:24
+msgid "Hana Posts & Comments Widget"
+msgstr "하나 포스트 & 댓글 위젯"
+
+#: includes/admin/settings.php:28
+msgid "Facebook"
+msgstr "페이스북"
+
+#: includes/admin/settings.php:29
+msgid "Twitter"
+msgstr "트위터"
+
+#: includes/admin/settings.php:30
+msgid "Google+"
+msgstr ""
+
+#: includes/admin/settings.php:31
+msgid "Kakao Story"
+msgstr "카카오 스토리"
+
+#: includes/admin/settings.php:32
+msgid "Kakao Talk"
+msgstr "카카오톡"
+
+#: includes/admin/settings.php:33
+msgid "Line"
+msgstr "라인"
+
+#: includes/admin/settings.php:34
+msgid "Naver Band"
+msgstr "네이버 밴드"
+
+#: includes/admin/settings.php:35
+msgid "Naver Blog"
+msgstr "네이버 블로그"
+
+#: includes/admin/settings.php:53
+msgid "Cheating?"
+msgstr "잘못된 접근입니다"
+
+#: includes/admin/settings.php:71 includes/admin/settings.php:76
+msgid "Hana Post Widget"
+msgstr "하나 포스트 & 댓글 위젯"
+
+#: includes/admin/settings.php:164
+msgid "Hana Widget settings saved."
+msgstr "하나 위젯 설정이 저장되었습니다."
+
+#: includes/admin/settings.php:172
+msgid "Hana Board Post"
+msgstr "하나 보드 게시물"
+
+#: includes/hana-comment-widget.php:11
+msgid "Hana Latest Comments"
+msgstr "하나 최근 댓글"
+
+#: includes/hana-comment-widget.php:13
+msgid "Display recent comments."
+msgstr "최근 코멘트 표시"
+
+#: includes/hana-comment-widget.php:89 includes/hana-post-widget.php:91
+msgid "Title"
+msgstr "제모"
+
+#: includes/hana-comment-widget.php:101 includes/hana-post-widget.php:130
+msgid "Widget Skin"
+msgstr "위젯 스킨"
+
+#: includes/hana-comment-widget.php:109
+msgid "Order by"
+msgstr "정렬 기준"
+
+#: includes/hana-comment-widget.php:117
+msgid "Order"
+msgstr "정렬"
+
+#: includes/hana-comment-widget.php:125 includes/hana-post-widget.php:146
+msgid "Show Author"
+msgstr "게시물 작성자 표시"
+
+#: includes/hana-comment-widget.php:129 includes/hana-post-widget.php:153
+msgid "Show Date"
+msgstr "게시물 날짜 표시"
+
+#: includes/hana-comment-widget.php:133
+msgid "Comments author not in"
+msgstr "다음 댓글 작성자를 숨김"
+
+#: includes/hana-post-widget.php:10
+msgid "Hana Latest Posts"
+msgstr "하나 최근 게시물"
+
+#: includes/hana-post-widget.php:12
+msgid ""
+"Display any post type posts. Outputs the post thumbnail, title and date per "
+"listing"
+msgstr ""
+"포스트 타입에 관계 없이 위젯/쇼트코드로 표시할 수 있습니다. 썸네일, 제목, 날"
+"짜 등을 지정할 수 있는 옵션을 제공합니다."
+
+#: includes/hana-post-widget.php:97
+msgid "Offset"
+msgstr "오프셋"
+
+#: includes/hana-post-widget.php:104
+msgid "Number of Listings:"
+msgstr "목록에 표시할 개수:"
+
+#: includes/hana-post-widget.php:114
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: includes/hana-post-widget.php:119
+msgid "For displaying Hana Board Articles, put \"hanaboard\"."
+msgstr "하나보드 게시물을 표시하시려면 “hanaboard”를 입력해 주세요."
+
+#: includes/hana-post-widget.php:127
+msgid "For displaying Hana Board Articles, put \"hanaboard-post\"."
+msgstr "하나보드 게시물을 표시하시려면 “hanaboard-post”를 입력해 주세요."
+
+#: includes/hana-post-widget.php:160
+msgid "Show number of Comments"
+msgstr "댓글 수 표시"
+
+#: includes/hana-post-widget.php:168
+msgid "Columns in a Row"
+msgstr "행에 표시할 칼럼 수"
+
+#: includes/hana-post-widget.php:178
+msgid "Show Post Title"
+msgstr "포스트 제목 표시"
+
+#: includes/hana-post-widget.php:186
+msgid "Show Thumbnail"
+msgstr "썸네일 표시"
+
+#: includes/hana-post-widget.php:194
+msgid "Thumbnail Size"
+msgstr "?썸네일 크기"
+
+#: includes/hana-post-widget.php:216
+msgid "Recent Posts"
+msgstr "최근 "
+
+#: includes/hana-post-widget.php:326
+msgid "Guest"
+msgstr "비회원"
+
+#: layouts/comment/beauty-comments/loop_no_item.php:2
+#: layouts/comment/default/loop_no_item.php:2
+#: layouts/post/beauty-posts/loop_no_item.php:2
+#: layouts/post/default/loop_no_item.php:2
+#: layouts/post/gallery/loop_no_item.php:2
+#: layouts/post/left-thumbnail/loop_no_item.php:2
+msgid "No posts found."
+msgstr "등록된 게시물이 없습니다."
+
+#: layouts/post/gallery/loop_item.php:17
+msgid "No Image"
+msgstr "이미지 없음"
+
+#~ msgid "HanaWordpress Home"
+#~ msgstr "하나워드프레스 홈"
+
+#~ msgid "Community"
+#~ msgstr "커뮤니티"
+
+#~ msgid "Demo"
+#~ msgstr "데모"
+
+#~ msgid "Technical Support"
+#~ msgstr "기술 지원"
+
+#~ msgid ""
+#~ "Your donation will make power to better plugins to developer. Thank you."
+#~ msgstr ""
+#~ "여러분의 기부가 개발자의 플러그인을 더 좋게 만드는 데에 큰 힘이 됩니다. 감"
+#~ "사합니다."
+
+#~ msgid "<strong>RSS Error</strong>: %s"
+#~ msgstr "<strong>RSS 오류</strong> : %s"
+
+#~ msgid "Apparently, there are no updates to show!"
+#~ msgstr "아직 새로 보여줄 업데이트가 없습니다."
+
+#~ msgid "Hana Wordpress Products"
+#~ msgstr "하나 워드프레스 제품"
+
+#~ msgid "Hana Wordpress News"
+#~ msgstr "하나 워드프레스 뉴스"
+
+#~ msgid "Hana Wordpress Customer Support"
+#~ msgstr "하나 워드프레스 고객 지원"
+
+#~ msgid "Donate"
+#~ msgstr "기부하기"
+
+#~ msgid "Hana Wordpress"
+#~ msgstr "하나 워드프레스"
+
+#~ msgid "DashBoard"
+#~ msgstr "대시보드"
+
+#~ msgid "Post Widget"
+#~ msgstr "포스트 위젯"
+
+#~ msgid "There is no changelog available."
+#~ msgstr "변경 로그가 없습니다."
+
+#~ msgid "Check for updates"
+#~ msgstr "업데이트 체크"
+
+#~ msgid "This plugin is up to date."
+#~ msgstr "이 플러그인은 최신버전입니다."
+
+#~ msgid "A new version of this plugin is available."
+#~ msgstr "이 플러그인의 새 버전을 사용할 수 있습니다."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "알 수 없는 업데이트 검사 상태 \"%s\""
+
+#~ msgid "Hana Comments Widget"
+#~ msgstr "하나 댓글 위젯"
+
+#~ msgid "Shortcode Predefined"
+#~ msgstr "저장된 쇼트코드"
+
+#~ msgid "Ellipsis excerpt"
+#~ msgstr "줄임표 발췌"
+
+#~ msgid "Post Like & Social Share"
+#~ msgstr "추천 & 소셜 공유"
+
+#~ msgid "Hana Post Like & Social Share settings saved."
+#~ msgstr "추천&소셜공유 설정이 저장되었습니다."
+
+#~ msgid "Today"
+#~ msgstr "오늘"
+
+#~ msgid "F j, Y"
+#~ msgstr "Y년 F월 j"
+
+#~ msgid "WJ Latest Posts"
+#~ msgstr "하나워드프레스 최근글"

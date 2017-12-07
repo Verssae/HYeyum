@@ -608,6 +608,10 @@ jQuery(document).ready(function() {
 	if(jQuery.isFunction(jQuery(".tooltip").tipTip)){
 		jQuery(".tooltip").tipTip();
 	}
+	//숫자만 입력받기
+	jQuery(".mbi-only-num").keyup (function () {
+		jQuery(this).val(jQuery(this).val().replace(/[^0-9]/g,""));
+    });
 	//숫자만 입력받고 최대 자릿수가 되면 다음 포커스로 이동
 	jQuery(".mbi-next-focus-num").keyup (function () {
 		var maxLength = jQuery(this).attr("maxlength");

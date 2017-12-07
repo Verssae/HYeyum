@@ -6,7 +6,7 @@ See wp-cache.php for author details.
 */
 
 $wp_cache_mobile_groups = '';
-$wp_cache_home_path = '/';
+$wp_cache_home_path = '/wordpress/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = 'ae8614ec15c50ff2c4e35c5853a003e7';
 $cache_time_interval = 600;

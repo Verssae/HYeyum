@@ -1,0 +1,330 @@
+.comments-wrap {
+	margin-top: 20px;
+}
+
+#comments-list {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#comments-list>.hana-comments-hr-title {
+	margin: 40px auto 30px;
+}
+
+#comments-list ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#comments-list ol li {
+	margin-bottom: 0;
+}
+
+#comments-list .comment-wrap {
+	position: relative;
+	height: auto;
+	padding: 10px 0;
+}
+
+.comment-wrap .comment-avatar {
+	float: left;
+	position: relative;
+	z-index: 2;
+	margin-top: -7px;
+}
+
+.comment-wrap .comment-avatar img {
+	height: 60px;
+	width: 60px;
+	display: block;
+}
+
+#comments-list .comment-content {
+	border-bottom-color: #dddddd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin: 0 0 0 90px;
+	padding-bottom: 10px;
+}
+
+#comments-list .comment-author {
+	font-weight: normal;
+}
+
+#comments-list li ul.children .comment-author {
+	font-weight: normal;
+}
+
+#comments-list .comment-date {
+	display: block;
+	font-size: 11px;
+	color: #bbb;
+	margin: 0;
+	padding: 0;
+}
+
+#comments-list .comment-meta-actions, #comments-list .comment-meta-actions a
+	{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #bbb;
+	display: inline-block;
+}
+
+#comments-list li ul {
+	list-style: none;
+	padding: 0;
+}
+
+#comments-list ul.children {
+	margin-left: 90px;
+}
+
+#comments-list ul.children ul {
+	margin-left: 0;
+}
+
+#comments-list ul.children .comment-wrap {
+	padding: 0;
+}
+
+#comments-list ul.children .comment-content {
+	margin-left: 90px;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+#comments-list ul.children .comment-author {
+	font-weight: normal;
+}
+
+#comments-list ul.children .comment-avatar {
+	box-shadow: none;
+	margin-top: 0;
+}
+
+#comments-list ul.children .comment-avatar img {
+	height: 30px;
+	width: 30px;
+	border-width: 0;
+}
+
+#comments-list ul.children .comment-date {
+	display: inline-block;
+}
+
+#comments-list ul.children .comment-meta, #comments-list ul.children .comment-body,
+	#comments-list ul.children .comment-meta-actions {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+#comments .comment-respond, #comments-list .comment-respond {
+/*	margin-left: 90px; */
+}
+
+#comments-list ul.children .comment-respond {
+	margin-left: 0;
+}
+
+#comments .activity-timeline {
+	border-right-color: #dddddd;
+	border-right-style: solid;
+	border-right-width: 1px;
+	height: 100%;
+	left: 30px;
+	position: absolute;
+	top: 0;
+	width: 1px;
+	z-index: 0;
+	margin-top: 30px;
+}
+
+#comments-list .comment-wrap .tooltip {
+	display: block;
+	background-color: white;
+	border: 1px solid #f5f5f5;
+	text-align: center;
+	padding: 2px;
+	font-size: 11px;
+	color: #666666;
+	width: 100%;
+}
+
+#comments-list .comment-wrap .comment-avatar {
+	float: left;
+	position: relative;
+	z-index: 2;
+	margin-top: -7px;
+}
+
+#comments-list .comment-wrap .comment-avatar img.avatar {
+	height: 60px;
+	width: 60px;
+	display: block;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 100%;
+	border-color: #ffffff;
+}
+
+#trackbacks-list span {
+	font-size: 12px;
+}
+
+#trackbacks-list ol li {
+	margin-bottom: 10px;
+}
+
+#trackbacks-list .comment-author {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#trackbacks-list .comment-content p {
+	font-size: 14px;
+}
+
+#respond-wrap {
+	padding-bottom: 20px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+
+#respond {
+	margin: 10px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url {
+	margin-bottom: 0;
+}
+
+#commentform {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#commentform p.comment-notes {
+	margin-bottom: 20px;
+}
+
+#commentform p.comment-notes span.required {
+	float: none;
+}
+
+#commentform label {
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 4px;
+}
+
+#commentform p.form-allowed-tags {
+	display: none;
+}
+
+#commentform p.form-allowed-tags code {
+	color: #444;
+}
+
+.comment #respond h3#reply-title {
+	display: block;
+	margin: 0 0 10px;
+}
+
+#reply-title small {
+	font-size: 14px;
+	line-height: 0;
+	margin-left: 5px;
+}
+
+#reply-title small a, #reply-title small a:hover {
+	text-decoration: none;
+}
+
+p.comment-form-comment {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+p.form-submit {
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+.hana-comments-hr-title {
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: 11px;
+	text-align: center;
+	height: 10px;
+	line-height: 20px;
+	margin: 10px auto -10px;
+	height: auto;
+}
+
+.hana-comments-hr-title abbr {
+	background-color: #fff;
+	padding: 2px 10px;
+	border-radius: 2px;
+	position: relative;
+	top: -10px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+.hana-comments-hr-title i {
+	position: relative;
+	top: -2px;
+	font-size: 8px;
+}
+
+.hana-comments-hr-title.hr-full {
+	width: 100%;
+}
+
+.hana-comments-hr-title.hana-hr-long {
+	width: 50%;
+}
+
+.hana-comments-hr-title.hr-short {
+	width: 25%;
+}
+
+.hana-comments-hr-title.hr-left {
+	text-align: left;
+}
+
+.hana-comments-hr-title.hr-right {
+	text-align: right;
+}
+
+.hana-comments-hr-title.hr-left abbr {
+	padding-left: 0;
+}
+
+.hana-comments-hr-title.hr-right abbr {
+	padding-right: 0;
+}
+
+.hana-comments-hr-title.hr-left.hana-hr-long {
+	margin-left: 0;
+}
+
+.hana-comments-hr-title.hr-right.hana-hr-long {
+	margin-right: 0;
+}
+
+.hana-comments-hr-title.hr-double {
+	border-top: 4px double #ebebeb;
+}
+
+.hana-comments-hr-title.hr-double abbr {
+	top: -12px;
+}

@@ -332,6 +332,8 @@ Class MStore
 				if($this->get_option("show_user_level"))
 					$user_query		= $user_query.",u.".$mb_fields["users"]["fn_user_level"];
 
+				if(has_filter('mf_user_join_field')) $user_query		= apply_filters("mf_user_join_field",$user_query);
+
 				if(empty($sData["command"])) $sData["command"]		= "SELECT";
 				if(empty($sData["column"])) $sData["column"]				= "*";	
 				if(empty($sData["join"])) $sData["join"]						= "";

@@ -1,0 +1,128 @@
+.noThumb {
+	width: 0px;
+	height: 45px;
+	float: left;
+	margin: 0;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.nopadding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.nopadding-left {
+	padding-left: 0 !important;
+}
+.nopadding-right {
+	padding-right: 0 !important;
+}
+
+.widget-left-thumbnail .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.widget-left-thumbnail {
+	padding-left: 0;
+	margin: 0;
+	width: 100%;
+}
+.widget-left-thumbnail.shortcode {
+	padding: 0 15px;
+}
+
+.widget-left-thumbnail .hana-widget-item {
+	padding: 7px 0;
+	list-style: none;
+	padding: 2px 0;
+}
+.widget-left-thumbnail .hana-widget-item .widget-item-body  {
+}
+.widget-left-thumbnail .hana-widget-item .widget-item-body .item-title a {
+	display: block;
+	width: 100%;
+	font-size: 10pt;
+	line-height: 20px;
+}
+
+.widget-left-thumbnail.shortcode .hana-widget-item {
+	border-top: 1px solid #f2f2f2;
+}
+
+.widget-left-thumbnail.shortcode .hana-widget-item:first-of-type {
+	border-top: 0;
+}
+
+
+.widget-left-thumbnail .hana-widget-item .widget-item-image {
+	vertical-align: middle;
+	padding-right: 6px;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-image a {
+	display: block;
+	overflow: hidden;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-image a img {
+	transition: all .2s ease-in-out;
+	width: 100%;
+	height: auto;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-image a img:hover {
+	transform: scale(1.1);
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-body {
+	vertical-align: middle;
+}
+
+.widget-left-thumbnail.shortcode .hana-widget-item .widget-item-body .item-title a {
+	color: #666666 !important;
+}
+
+.widget-left-thumbnail.shortcode .hana-widget-item .widget-item-body .item-title a:hover {
+	color: #000000 !important;
+}
+.widget-left-thumbnail.shortcode .hana-widget-item .widget-item-body .item-meta a {
+	color: #aaaaaa !important;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-body .item-meta a {
+	font-size: 9pt;
+	line-height: 20px;
+}
+
+ul.widget-left-thumbnail .hana-widget-item .widget-item-body .col-author {
+	font-weight: normal;
+}
+
+.widget-left-thumbnail .hana-widget-item .widget-item-body .col-date {
+	color: #aaaaaa;
+}
+
+.widget-left-thumbnail .hana-widget-header {
+	display: none;
+}
+
+.widget-left-thumbnail.shortcode .hana-widget-header {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 11px 20px 9px 0;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.267em;
+	border-bottom: 1px solid #f2f2f2;
+}

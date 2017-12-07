@@ -47,6 +47,7 @@ if ( apply_filters( 'czr_ms', false ) ) {
   				do_action( '__header' );
   			?>
   		</header>
+		<meta name="naver-site-verification" content="41023e621116552c0fff222d4982cc03866619f4"/>
   		<?php
   		 	//This hook is used for the slider : CZR_slider::$instance->czr_fn_slider_display()
   			do_action ( '__after_header' )

@@ -46,6 +46,30 @@
             .on('click', function(e) {
                 jcarousel.jcarousel('scroll', 3);
             })
+		$('.jcarousel-control-5')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 4);
+            })
+		$('.jcarousel-control-6')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 5);
+            })
+		$('.jcarousel-control-7')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 6);
+            })
+		$('.jcarousel-control-8')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 7);
+            })
+		$('.jcarousel-control-9')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 8);
+            })
+		$('.jcarousel-control-10')
+            .on('click', function(e) {
+                jcarousel.jcarousel('scroll', 9);
+            })
 
         $('.jcarousel-pagination')
             .on('jcarouselpagination:active', 'a', function() {

@@ -142,7 +142,12 @@ if(!empty($require_files)){
 
 //PHP 안티웹셸 환경인지 체크하기
 if(empty($_COOKIE["mb_security_mode"])){	
-	if(mbw_get_param("mode")!="check"){
+	//$_REQUEST["mode"] 로 확인해야 값이 넘어옴 - mbw_get_param("mode") 함수 사용금지
+	$mode		= '';
+	if(!empty($_REQUEST["mode"])){
+		$mode		= $_REQUEST["mode"];
+	}	
+	if($mode!="check"){
 		$kcaptcha_url		= mbw_get_option("kcaptcha_image_url").'?mode=check&board_action=img';
 		$curl_handle = curl_init();   
 		curl_setopt($curl_handle, CURLOPT_URL, $kcaptcha_url); 
